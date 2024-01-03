@@ -1,3 +1,11 @@
 .App {
   text-align: center;
 }
+
+.checkIcon:hover, .checkIcon:active{
+  stroke: green;
+}
+
+.closeIcon:hover , .closeIcon:active{
+  stroke: red;
+}
