@@ -2,7 +2,7 @@ import { useState } from 'react';
 import List from './List';
 
 function Form() {
-  const inputStyle = { width: '300px', margin: '20px', fontSize: '18px', padding: '10px', borderRadius: '10px' };
+  const inputStyle = { maxWidth: '80vw', margin: '20px', fontSize: '18px', padding: '10px', borderRadius: '10px' };
   const buttonStyle = { fontSize: '18px', padding: '10px', borderRadius: '10px' };
   const [currentTask, setCurrentTask] = useState('');
   const [listOfTasks, setListOfTasks] = useState([]);
@@ -28,6 +28,7 @@ function Form() {
           Добавить
         </button>
       </form>
+      <br/>
       <List listOfTasks={listOfTasks} setListOfTasks={setListOfTasks} />
     </>
   );

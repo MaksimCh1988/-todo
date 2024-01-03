@@ -3,7 +3,7 @@ function Item({ itemText, indexOfTask, setListOfTasks, listOfTasks }) {
     fontSize: '18px',
     padding: '10px',
     border: '1px solid white',
-    width: '410px',
+    maxWidth: '80vw',
     margin: '0 auto',
     textAlign: 'left',
     display: 'flex',
